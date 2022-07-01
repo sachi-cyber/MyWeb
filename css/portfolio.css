@@ -3,10 +3,12 @@ body {
 }
 
 .topnav {
-    overflow: hidden;
+  overflow: hidden;
 	float: right;
 	padding-right: 50px;
 	padding-top: 25px;
+  position: relative;
+  z-index: 5;
 }
 
 .topnav a {
